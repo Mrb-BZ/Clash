@@ -1,50 +1,3 @@
-[custom]
-
-
-;设置规则标志位
-
-ruleset=❌ 广告,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/BanAD.list
-ruleset=❌ 广告,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/BanEasyList.list
-ruleset=❌ 广告,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/BanEasyListChina.list
-ruleset=❌ 广告,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/BanEasyPrivacy.list
-ruleset=❌ 广告,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/BanProgramAD.list
-
-ruleset=📺 Youtube,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/YouTubeMusic.list
-ruleset=📺 Youtube,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/YouTube.list
-
-ruleset=📺 Twitch,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/Twitch.list
-
-ruleset=☎️ Telegram,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/Telegram.list
-
-ruleset=🎭 Twitter,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/Twitter.list
-
-ruleset=🎬 Netfix,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/NetflixIP.list
-ruleset=🎬 Netfix,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/Netflix.list
-
-ruleset=🇺🇸 国 外 🇬🇧,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ProxyLite.list
-ruleset=🇺🇸 国 外 🇬🇧,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ProxyGFWlist.list
-ruleset=🇺🇸 国 外 🇬🇧,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ProxyMedia.list
-
-ruleset=🇨🇳 国 内 🇨🇳,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/CN.list
-ruleset=🇨🇳 国 内 🇨🇳,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ChinaNet.list
-ruleset=🇨🇳 国 内 🇨🇳,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ChinaMedia.list
-ruleset=🇨🇳 国 内 🇨🇳,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ChinaIp.list
-
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ChinaCompanyIp.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/LocalAreaNetwork.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/GoogleCN.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/SteamCN.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/Mrb-BZ/Clash/main/Rules/ChinaDomain.list
-ruleset=🎯 全球直连,[]GEOIP,CN
-
-ruleset=🐟 漏网之鱼,[]FINAL
-
-;设置规则标志位
-
-
-
-;设置分组标志位
-
 custom_proxy_group=✈️ 节点选择`select`[]♻️ 自动选择`[]🧲 负载均衡`[]⚠️ 故障排除`[]👍 手动选择`[]🇨🇳 中国大陆`[]🇭🇰 中国香港`[]🇹🇼 中国台湾`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇸 美国`[]🇷🇺 俄罗斯`[]🇸🇬 狮城`[]🎬 Netfix`[]🌎 其他节点
 
 custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*(China|回国|中国|江苏|北京|上海|广州|深圳|杭州|常州|徐州|青岛|宁波|镇江|back)).*)`http://www.gstatic.com/generate_204`120,5,50
@@ -92,10 +45,3 @@ custom_proxy_group=🇨🇳 国 内 🇨🇳`select`[]✈️ 节点选择`[]♻�
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 
 custom_proxy_group=🐟 漏网之鱼`select`[]✈️ 节点选择`[]♻️ 自动选择`[]🧲 负载均衡`[]⚠️ 故障排除`[]👍 手动选择`[]🇨🇳 中国大陆`[]🇭🇰 中国香港`[]🇹🇼 中国台湾`[]🇯🇵 日本`[]🇰🇷 韩国`[]🇺🇸 美国`[]🇷🇺 俄罗斯`[]🇸🇬 狮城`[]🎬 Netfix`[]🌎 其他节点
-
-;设置分组标志位
-
-
-enable_rule_generator=true
-
-overwrite_original_rules=true
